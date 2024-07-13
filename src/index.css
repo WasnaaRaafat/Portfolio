@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'PTSans';
+  src: local('PTSans'), url(/public/assets/fonts/PTSans.woff) format('woff');
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+* {
+  font-family: 'PTSans', sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
