@@ -1,25 +1,25 @@
 export const PersonalProjects = [
   {
     title: 'John Doe',
-    image: '/assets/images/projects/john_doe.png',
+    image: '/Portfolio/assets/images/projects/john_doe.webp',
     github_url: 'https://github.com/WasnaaRaafat/JohnDoe',
     demo_url: 'https://wasnaaraafat.github.io/JohnDoe/index.html',
   },
   {
     title: 'Hotel',
-    image: '/assets/images/projects/hotel.jpg',
+    image: '/Portfolio/assets/images/projects/hotel.webp',
     github_url: 'https://github.com/WasnaaRaafat/Hotel',
     demo_url: 'https://wasnaaraafat.github.io/Hotel/',
   },
   {
     title: 'App Lab',
-    image: '/assets/images/projects/app_lab.jpg',
+    image: '/Portfolio/assets/images/projects/app_lab.webp',
     github_url: 'https://github.com/WasnaaRaafat/app-lab',
     demo_url: 'https://wasnaaraafat.github.io/app-lab/',
   },
   {
     title: 'Edge Deger',
-    image: '/assets/images/projects/Edge.png',
+    image: '/Portfolio/assets/images/projects/Edge.webp',
     github_url: 'https://github.com/WasnaaRaafat/EdgeDeger',
     demo_url: 'https://wasnaaraafat.github.io/EdgeDeger/',
   },
@@ -28,17 +28,17 @@ export const PersonalProjects = [
 export const WorkProjects = [
   {
     title: 'Zinzo Website',
-    image: '/assets/images/projects/zinzo.png',
+    image: '/Portfolio/assets/images/projects/zinzo.webp',
     demo_url: 'https://development-v1.zinzo.com/',
   },
   {
     title: 'Loints of Holland',
-    image: '/assets/images/projects/LOH.png',
+    image: '/Portfolio/assets/images/projects/LOH.webp',
     demo_url: 'https://lointsofholland.com/',
   },
   {
     title: 'Amrita',
-    image: '/assets/images/projects/amrita.png',
+    image: '/Portfolio/assets/images/projects/amrita.webp',
     demo_url: 'https://amritaplus.com/',
   },
 ];
@@ -46,7 +46,7 @@ export const WorkProjects = [
 export const CoolProjects = [
   {
     title: 'Github Finder',
-    image: '/assets/images/projects/github_finder.png',
+    image: '/Portfolio/assets/images/projects/github_finder.webp',
     github_url: 'https://github.com/WasnaaRaafat/gitHubFinder',
     demo_url: 'https://wasnaaraafat.github.io/gitHubFinder/',
   },

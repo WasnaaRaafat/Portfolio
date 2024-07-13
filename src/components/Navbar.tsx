@@ -1,5 +1,4 @@
 import React from 'react';
-
 const Navbar = () => {
   return (
     <section className='flex flex-col md:flex-row mt-8 md:mt-3 justify-between items-center px-14font-bold text-white w-[90%] mx-auto'>

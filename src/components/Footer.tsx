@@ -10,7 +10,7 @@ const Footer = () => {
       <figure className='flex flex-row justify-center items-center pb-2'>
         <a href='mailto:wasnaaraafat@gmail.com' className='px-2'>
           <img
-            src='/assets/icons/mail.svg'
+            src='/Portfolio/assets/icons/mail.svg'
             alt='mail-icon'
             width={20}
             height={20}
@@ -18,7 +18,7 @@ const Footer = () => {
         </a>
         <a href='tel:+9647800903465' className='px-2'>
           <img
-            src='/assets/icons/telephone.svg'
+            src='/Portfolio/assets/icons/telephone.svg'
             alt='telephone-icon'
             width={20}
             height={20}
@@ -31,7 +31,7 @@ const Footer = () => {
           rel='noreferrer'
         >
           <img
-            src='/assets/icons/linkedin.svg'
+            src='/Portfolio/assets/icons/linkedin.svg'
             alt='linkedin-icon'
             width={25}
             height={25}
@@ -44,7 +44,7 @@ const Footer = () => {
           rel='noreferrer'
         >
           <img
-            src='/assets/icons/github.svg'
+            src='/Portfolio/assets/icons/github.svg'
             alt='github-icon'
             width={25}
             height={25}
