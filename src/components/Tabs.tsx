@@ -37,10 +37,10 @@ const Tabs: React.FC<TabsProps> = ({ children }) => {
           </button>
         ))}
       </div>
-      <div className='py-4'>
+      <div className='py-12'>
         {children.map((child) => {
           if (child.props.label === activeTab) {
-            return <div className='grid' key={child.props.label}>{child.props.children}</div>;
+            return <div key={child.props.label}>{child.props.children}</div>;
           }
           return null;
         })}

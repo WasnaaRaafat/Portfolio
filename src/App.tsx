@@ -10,7 +10,7 @@ import Projects from './components/Projects';
 function App() {
   return (
     <ScrollToTop>
-      <div className='App bg-primary  flex flex-col '>
+      <div className='App bg-primary flex flex-col '>
         <Navbar />
         <Hero />
         <About />
