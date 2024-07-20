@@ -3,6 +3,7 @@ export interface CardProps {
   image: string;
   github_url?: string;
   demo_url: string;
+  text: string;
 }
 export interface ItemProps {
   item: CardProps;

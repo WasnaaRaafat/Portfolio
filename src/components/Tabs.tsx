@@ -21,14 +21,14 @@ const Tabs: React.FC<TabsProps> = ({ children }) => {
   };
 
   return (
-    <div className='w-[90%] m-auto '>
-      <div className='flex border-b border-gray-300 justify-center'>
+    <div className='w-[90%] m-auto'>
+      <div className='flex border-b border-secondary_text justify-center'>
         {children.map((child) => (
           <button
             key={child.props.label}
-            className={`px-2 ${
+            className={`px-8 ${
               activeTab === child.props.label
-                ? 'border-b-2 border-purple-500'
+                ? 'border-b-2 border-primary_yellow !text-primary_yellow'
                 : ''
             }  text-secondary_text font-medium py-2`}
             onClick={(e) => handleClick(e, child.props.label)}
