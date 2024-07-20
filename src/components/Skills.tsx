@@ -15,7 +15,7 @@ const Skills = () => {
         <Reveal>
           <p className='text-secondary_text mb-5'>
             My technical arsenal includes a robust understanding of modern web
-            technologies and development tools:
+            technologies and development tools, such as:
           </p>
         </Reveal>
         <Reveal>

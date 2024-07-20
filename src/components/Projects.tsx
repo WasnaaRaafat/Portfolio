@@ -24,14 +24,18 @@ const Projects = () => {
         <Tab label='Work Projects'>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-4 place-items-center justify-items-center'>
             {WorkProjects.map((project, index) => (
-              <Card item={project} key={index} />
+              <Reveal key={index}>
+                <Card item={project} />
+              </Reveal>
             ))}
           </div>
         </Tab>
         <Tab label='Cool Projects'>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-4 place-items-center justify-items-center'>
             {CoolProjects.map((project, index) => (
-              <Card item={project} key={index} />
+              <Reveal key={index}>
+                <Card item={project} key={index} />
+              </Reveal>
             ))}
           </div>
         </Tab>
