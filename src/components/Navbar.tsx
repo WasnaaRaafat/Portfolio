@@ -35,7 +35,7 @@ const Navbar = () => {
             <li>Contacts</li>
           </a>
           <a
-            href='/Portfolio/assets/cv/wasnaa_Resume.2024.pdf'
+            href='/Portfolio/assets/cv/wasnaa_Resume.2025.pdf'
             download="wasnaa's Resume"
             target='_blank'
           >
