@@ -39,7 +39,7 @@ export const WorkProjects = [
     image: '/Portfolio/assets/images/projects/zinzo.webp',
     text: 'Zinzo company website, we redesigned it using NextJs and Typescript.',
     direction: 'start',
-    demo_url: 'https://development-v1.zinzo.com/',
+    demo_url: 'https://zinzo.com/en',
   },
   {
     title: 'Loints of Holland',
@@ -53,7 +53,14 @@ export const WorkProjects = [
     direction: 'start',
     image: '/Portfolio/assets/images/projects/amrita.webp',
     text: 'Amrita Nutrition site, developed using vite and Typescript.',
-    demo_url: 'https://amritaplus.com/',
+    demo_url: 'https://amritanutrition.com/en',
+  },
+  {
+    title: 'Vroeg',
+    direction: 'end',
+    image: '/Portfolio/assets/images/projects/vroeg.webp',
+    text: 'Vroeg store, using Shopify with third parties integrations.',
+    demo_url: 'https://geschenkenvanvroeg.nl/',
   },
 ];
 
