@@ -1,48 +1,59 @@
 import React from 'react';
+import { contact, fullName } from '../data/content';
 
 const SocialContacts = ({ className }: { className?: string }) => {
   return (
     <figure
       className={`flex flex-row justify-center items-center pb-2 ${className}`}
     >
-      <a href='mailto:wasnaaraafat@gmail.com' className='px-2'>
+      <a
+        href={`mailto:${contact.email}`}
+        className='px-2'
+        aria-label={`Email ${fullName}`}
+      >
         <img
           src='/Portfolio/assets/icons/mail.svg'
-          alt='mail-icon'
-          width={20}
-          height={20}
-        />
-      </a>
-      <a href='tel:+9647800903465' className='px-2'>
-        <img
-          src='/Portfolio/assets/icons/telephone.svg'
-          alt='telephone-icon'
+          alt=''
           width={20}
           height={20}
         />
       </a>
       <a
-        href='https://www.linkedin.com/in/wasnaa/'
+        href={contact.phoneHref}
+        className='px-2'
+        aria-label={`Call ${fullName} on ${contact.phoneDisplay}`}
+      >
+        <img
+          src='/Portfolio/assets/icons/telephone.svg'
+          alt=''
+          width={20}
+          height={20}
+        />
+      </a>
+      <a
+        href={contact.linkedin}
         className='px-2'
         target='_blank'
-        rel='noreferrer'
+        rel='noopener noreferrer'
+        aria-label='LinkedIn profile'
       >
         <img
           src='/Portfolio/assets/icons/linkedin.svg'
-          alt='linkedin-icon'
+          alt=''
           width={25}
           height={25}
         />
       </a>
       <a
-        href='https://github.com/WasnaaRaafat'
+        href={contact.github}
         className='px-2'
         target='_blank'
-        rel='noreferrer'
+        rel='noopener noreferrer'
+        aria-label='GitHub profile'
       >
         <img
           src='/Portfolio/assets/icons/github.svg'
-          alt='github-icon'
+          alt=''
           width={25}
           height={25}
         />

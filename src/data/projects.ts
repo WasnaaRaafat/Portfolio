@@ -2,7 +2,7 @@ export const PersonalProjects = [
   {
     title: 'John Doe',
     image: '/Portfolio/assets/images/projects/john_doe.webp',
-    text: 'This is a new project designed using HTML, CSS and JS',
+    text: 'Designed using HTML, CSS and JavaScript.',
     direction: 'start',
     github_url: 'https://github.com/WasnaaRaafat/JohnDoe',
     demo_url: 'https://wasnaaraafat.github.io/JohnDoe/index.html',
@@ -10,7 +10,7 @@ export const PersonalProjects = [
   {
     title: 'Hotel',
     image: '/Portfolio/assets/images/projects/hotel.webp',
-    text: 'Hotel site developed using HTML and CSS',
+    text: 'Hotel site developed using HTML and CSS.',
     direction: 'end',
     github_url: 'https://github.com/WasnaaRaafat/Hotel',
     demo_url: 'https://wasnaaraafat.github.io/Hotel/',
@@ -18,7 +18,7 @@ export const PersonalProjects = [
   {
     title: 'App Lab',
     image: '/Portfolio/assets/images/projects/app_lab.webp',
-    text: 'This is project was developed using HTML, CSS and JS.',
+    text: 'Developed using HTML, CSS and JavaScript.',
     direction: 'start',
     github_url: 'https://github.com/WasnaaRaafat/app-lab',
     demo_url: 'https://wasnaaraafat.github.io/app-lab/',
@@ -26,7 +26,7 @@ export const PersonalProjects = [
   {
     title: 'Edge Deger',
     image: '/Portfolio/assets/images/projects/Edge.webp',
-    text: 'A site developed using HTML - CSS.',
+    text: 'A site developed using HTML and CSS.',
     direction: 'end',
     github_url: 'https://github.com/WasnaaRaafat/EdgeDeger',
     demo_url: 'https://wasnaaraafat.github.io/EdgeDeger/',
@@ -37,7 +37,7 @@ export const WorkProjects = [
   {
     title: 'Zinzo Website',
     image: '/Portfolio/assets/images/projects/zinzo.webp',
-    text: 'Zinzo company website, we redesigned it using NextJs and Typescript.',
+    text: 'Zinzo company website, redesigned using Next.js and TypeScript.',
     direction: 'start',
     demo_url: 'https://zinzo.com/en',
   },
@@ -52,23 +52,23 @@ export const WorkProjects = [
     title: 'Amrita',
     direction: 'start',
     image: '/Portfolio/assets/images/projects/amrita.webp',
-    text: 'Amrita Nutrition site, developed using vite and Typescript.',
+    text: 'Amrita Nutrition site, developed using Vite and TypeScript.',
     demo_url: 'https://amritanutrition.com/en',
   },
   {
     title: 'Vroeg',
     direction: 'end',
     image: '/Portfolio/assets/images/projects/vroeg.webp',
-    text: 'Vroeg store, using Shopify with third parties integrations.',
+    text: 'Vroeg store, built on Shopify with third-party integrations.',
     demo_url: 'https://geschenkenvanvroeg.nl/',
   },
 ];
 
 export const CoolProjects = [
   {
-    title: 'Github Finder',
+    title: 'GitHub Finder',
     image: '/Portfolio/assets/images/projects/github_finder.webp',
-    text: 'Github Finder site using Github API to search users and display their main info using HTML, CSS and JS.',
+    text: 'Searches GitHub users via the GitHub API and displays their main info. Built with HTML, CSS and JavaScript.',
     direction: 'end',
     github_url: 'https://github.com/WasnaaRaafat/gitHubFinder',
     demo_url: 'https://wasnaaraafat.github.io/gitHubFinder/',

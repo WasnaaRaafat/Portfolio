@@ -1,10 +1,17 @@
 import React from 'react';
 import Reveal from './Reveal';
+import { cvFileName, cvPath, fullName } from '../data/content';
+
 const Navbar = () => {
   return (
     <section className='flex flex-col md:flex-row mt-8 justify-between items-center text-white w-[90%] mx-auto'>
       <Reveal>
-        <p className='text-2xl border rounded-full p-2 border-primary_yellow'>
+        <p
+          className='text-2xl border rounded-full p-2 border-primary_yellow'
+          role='img'
+          aria-label={fullName}
+          title={fullName}
+        >
           WR
         </p>
       </Reveal>
@@ -35,9 +42,10 @@ const Navbar = () => {
             <li>Contacts</li>
           </a>
           <a
-            href='/Portfolio/assets/cv/wasnaa_Resume.2025.pdf'
-            download="wasnaa's Resume"
+            href={cvPath}
+            download={cvFileName}
             target='_blank'
+            rel='noopener noreferrer'
           >
             <button
               type='button'

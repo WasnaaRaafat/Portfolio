@@ -12,7 +12,7 @@ const About = () => {
           </h1>
         </Reveal>
         <Reveal>
-          <p className='text-secondary_text'>Univercity of babylon 2015-2019</p>
+          <p className='text-secondary_text'>University of Babylon, 2015–2019</p>
         </Reveal>
       </div>
     </div>
