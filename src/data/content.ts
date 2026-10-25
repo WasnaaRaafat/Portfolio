@@ -56,6 +56,5 @@ export const education = [
   },
 ];
 
-// TODO: drop the latest CV PDF into public/assets/cv/ under this name.
 export const cvFileName = 'Wasnaa_Al-Rubaye_CV.pdf';
 export const cvPath = `/Portfolio/assets/cv/${cvFileName}`;
