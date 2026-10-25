@@ -56,5 +56,60 @@ export const education = [
   },
 ];
 
+export const skills = [
+  {
+    group: 'Languages',
+    items: [
+      'JavaScript',
+      'TypeScript',
+      'Python',
+      'Java',
+      'SQL',
+      'HTML',
+      'CSS/SASS',
+    ],
+  },
+  {
+    group: 'Frameworks & libraries',
+    items: ['React', 'Next.js', 'Vue.js', 'Vite'],
+  },
+  {
+    group: 'E-commerce & integrations',
+    items: [
+      'Shopify (Liquid, theme development, CSV/data migration)',
+      'Klaviyo',
+      'Judge.me',
+      'Cookiebot / Google Consent Mode',
+      'Bundle and discount apps',
+    ],
+  },
+  {
+    group: 'Performance & quality',
+    items: [
+      'Core Web Vitals',
+      'Lighthouse/PageSpeed',
+      'Image optimisation',
+      'CSS delivery',
+      'SEO (semantic structure)',
+    ],
+  },
+  {
+    group: 'Concepts',
+    items: ['OOP', 'REST APIs', 'Relational databases', 'Version control'],
+  },
+  {
+    group: 'Tools',
+    items: ['Git', 'GitHub', 'Vercel', 'Figma', 'Photoshop'],
+  },
+];
+
+export const navLinks = [
+  { label: 'Projects', href: '#projects' },
+  { label: 'Experience', href: '#experience' },
+  { label: 'Skills', href: '#skills' },
+  { label: 'Education', href: '#education' },
+  { label: 'Contact', href: '#footer' },
+];
+
 export const cvFileName = 'Wasnaa_Al-Rubaye_CV.pdf';
 export const cvPath = `/Portfolio/assets/cv/${cvFileName}`;

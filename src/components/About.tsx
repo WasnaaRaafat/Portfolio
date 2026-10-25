@@ -4,7 +4,7 @@ import { education } from '../data/content';
 
 const About = () => {
   return (
-    <div className='w-[90%] mx-auto my-4' id='about'>
+    <div className='w-[90%] mx-auto my-4' id='education'>
       <hr className='my-2 w-full mx-auto h-[2px] bg-secondary_text' />
       <div className='mx-auto'>
         <Reveal>

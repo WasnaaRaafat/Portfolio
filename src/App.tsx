@@ -11,7 +11,7 @@ import Experience from './components/Experience';
 function App() {
   return (
     <ScrollToTop>
-      <div className='bg-primary flex flex-col px-8 md:px-14'>
+      <div className='bg-primary flex flex-col px-8 md:px-14' id='top'>
         <Navbar />
         <Hero />
         <Projects />
