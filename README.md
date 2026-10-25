@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Wasnaa Al-Rubaye – Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personal portfolio of Wasnaa Al-Rubaye, a software engineer with 3 years building and optimising production e-commerce sites, now studying for an MSc in Computer Science at Birmingham City University.
 
-## Available Scripts
+**Live site:** https://wasnaaraafat.github.io/Portfolio/
 
-In the project directory, you can run:
+![Portfolio hero](public/og-image.png)
 
-### `npm start`
+## Tech stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React 18 + TypeScript
+- Tailwind CSS
+- Framer Motion for scroll animations
+- react-scripts (Create React App) for the build
+- Deployed to GitHub Pages with `gh-pages`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Work projects presented as short case studies (problem, what I built, result) with tech-stack chips
+- Experience timeline, grouped skills and education
+- Responsive layout with a mobile menu
+- Accessibility: keyboard-accessible tabs and menu, visible focus outlines, descriptive alt text and link labels, AAA colour contrast for text
+- Content is visible by default; scroll animations only run when supported and when the visitor hasn't asked for reduced motion
+- Performance: compressed WebP images sized for display, lazy loading below the fold, self-hosted font
+- SEO and sharing: meta description, Open Graph / Twitter cards and a `<noscript>` fallback
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Running locally
 
-### `npm run build`
+Requires Node.js and npm.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm install
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Then open http://localhost:3000/Portfolio.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Editing content
 
-### `npm run eject`
+All text lives in two data files, so most updates don't need component changes:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| What | Where |
+| --- | --- |
+| Name, location, contact details, hero copy, experience, education, skills, nav links, CV filename | `src/data/content.ts` |
+| Work, personal and early projects | `src/data/projects.ts` |
+| CV PDF | `public/assets/cv/` (filename must match `cvFileName` in `content.ts`) |
+| Project screenshots | `public/assets/images/projects/` (WebP, about 800px wide, 16:9) |
+| Social sharing image | `public/og-image.png` (1200×630) |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Build and deploy
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm run build    # production build in /build
+npm run deploy   # builds, then publishes /build to the gh-pages branch
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Project structure
 
-## Learn More
+```
+public/            static files: index.html, icons, images, CV, manifest
+src/
+  components/      page sections (Hero, Projects, Experience, Skills, ...) and Card
+  data/            site content (content.ts, projects.ts)
+  hooks/           useReveal: progressive-enhancement scroll animation
+  types/           shared TypeScript types
+  assets/fonts/    PT Sans
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Email: wasnaa.alroubaie@gmail.com
+- LinkedIn: https://www.linkedin.com/in/wasnaa/
+- GitHub: https://github.com/WasnaaRaafat

@@ -30,8 +30,11 @@ const Card = (props: ItemProps) => {
             className='rounded-lg w-full h-auto aspect-video object-cover object-top mb-6'
           />
         ) : (
-          <div className='rounded-lg w-full aspect-video mb-6 flex items-center justify-center border-2 border-dashed border-secondary_text text-secondary_text'>
-            {'{TODO: add image}'}
+          <div
+            className='rounded-lg w-full aspect-video mb-6 flex items-center justify-center p-6 text-center border-2 border-dashed border-secondary_text text-secondary_text text-2xl font-bold'
+            aria-hidden='true'
+          >
+            {title}
           </div>
         )}
       </figure>
