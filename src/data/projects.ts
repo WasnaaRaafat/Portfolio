@@ -78,6 +78,17 @@ export const WorkProjects: Project[] = [
 
 export const PersonalProjects: Project[] = [
   {
+    title: 'Asana Export Manager',
+    image: imagePath('Asana.webp'),
+    stack: ['React', 'TypeScript', 'Vercel'],
+    summary:
+      'A tool for exporting Asana project data, with PDF generation, email delivery and security hardening.',
+  },
+];
+
+// Early HTML/CSS exercises, shown collapsed under "Early work".
+export const EarlyProjects: Project[] = [
+  {
     title: 'John Doe',
     image: imagePath('john_doe.webp'),
     summary: 'Designed using HTML, CSS and JavaScript.',

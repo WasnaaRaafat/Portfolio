@@ -18,7 +18,7 @@ const Card = (props: ItemProps) => {
   const hasCaseStudy = Boolean(problem || highlights?.length || result);
 
   return (
-    <article className='w-full max-w-[500px] rounded-md overflow-hidden mb-10'>
+    <article className='w-full max-w-[500px] mx-auto rounded-md overflow-hidden mb-10'>
       <figure>
         {image ? (
           <img

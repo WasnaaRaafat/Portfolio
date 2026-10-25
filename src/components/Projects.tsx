@@ -1,6 +1,10 @@
 import React from 'react';
 import { Tabs, Tab } from './Tabs';
-import { WorkProjects, PersonalProjects } from './../data/projects';
+import {
+  WorkProjects,
+  PersonalProjects,
+  EarlyProjects,
+} from './../data/projects';
 import Card from './Card';
 import Reveal from './Reveal';
 
@@ -31,6 +35,16 @@ const Projects = () => {
               </Reveal>
             ))}
           </div>
+          <details className='mt-4'>
+            <summary className='cursor-pointer text-primary_yellow font-bold text-center hover:underline'>
+              Early work: HTML/CSS exercises
+            </summary>
+            <div className={`${gridClasses} mt-8`}>
+              {EarlyProjects.map((project) => (
+                <Card key={project.title} item={project} />
+              ))}
+            </div>
+          </details>
         </Tab>
       </Tabs>
     </div>
