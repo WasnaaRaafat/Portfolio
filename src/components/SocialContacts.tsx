@@ -8,7 +8,7 @@ const SocialContacts = ({ className }: { className?: string }) => {
     >
       <a
         href={`mailto:${contact.email}`}
-        className='px-2'
+        className='p-2'
         aria-label={`Email ${fullName}`}
       >
         <img
@@ -20,7 +20,7 @@ const SocialContacts = ({ className }: { className?: string }) => {
       </a>
       <a
         href={contact.phoneHref}
-        className='px-2'
+        className='p-2'
         aria-label={`Call ${fullName} on ${contact.phoneDisplay}`}
       >
         <img
@@ -32,7 +32,7 @@ const SocialContacts = ({ className }: { className?: string }) => {
       </a>
       <a
         href={contact.linkedin}
-        className='px-2'
+        className='p-2'
         target='_blank'
         rel='noopener noreferrer'
         aria-label='LinkedIn profile'
@@ -46,7 +46,7 @@ const SocialContacts = ({ className }: { className?: string }) => {
       </a>
       <a
         href={contact.github}
-        className='px-2'
+        className='p-2'
         target='_blank'
         rel='noopener noreferrer'
         aria-label='GitHub profile'

@@ -9,11 +9,17 @@ const Footer = () => {
       <p className='text-white font-bold mt-4'>{fullName}</p>
       <p className='text-secondary_text mb-1'>{location}</p>
       <p className='text-secondary_text mb-3'>
-        <a href={`mailto:${contact.email}`} className='hover:underline'>
+        <a
+          href={`mailto:${contact.email}`}
+          className='inline-block py-2 hover:underline'
+        >
           {contact.email}
         </a>
         {' · '}
-        <a href={contact.phoneHref} className='hover:underline'>
+        <a
+          href={contact.phoneHref}
+          className='inline-block py-2 hover:underline'
+        >
           {contact.phoneDisplay}
         </a>
       </p>

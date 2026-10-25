@@ -79,6 +79,10 @@ const Hero = () => {
       <img
         src='/Portfolio/assets/images/profilePic4.webp'
         alt={fullName}
+        width={400}
+        height={400}
+        // React 18 doesn't know fetchPriority, so pass the raw attribute.
+        {...{ fetchpriority: 'high' }}
         className='rounded-full hidden md:block shrink-0 object-cover w-[300px] h-[300px] xs:w-[300px] xs:h-[300px] md:w-[350px] md:h-[350px] lg:h-[400px] lg:w-[400px] my-4 md:my-0'
       />
     </div>

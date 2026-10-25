@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Reveal from './Reveal';
 import { cvFileName, cvPath, fullName, navLinks } from '../data/content';
 
-const linkClasses = 'hover:underline hover:text-secondary';
+const linkClasses = 'hover:underline hover:text-primary_yellow';
 const cvClasses =
   'border border-primary_yellow py-3 px-6 hover:text-primary_yellow';
 
